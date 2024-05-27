@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/east-central-europe/static/css/main.5cec664a.css",
+    "main.js": "/east-central-europe/static/js/main.cd22946d.js",
+    "static/js/453.ed3810f9.chunk.js": "/east-central-europe/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/east-central-europe/index.html",
+    "main.5cec664a.css.map": "/east-central-europe/static/css/main.5cec664a.css.map",
+    "main.cd22946d.js.map": "/east-central-europe/static/js/main.cd22946d.js.map",
+    "453.ed3810f9.chunk.js.map": "/east-central-europe/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cec664a.css",
+    "static/js/main.cd22946d.js"
+  ]
+}
