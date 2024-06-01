@@ -4,22 +4,25 @@ import "./App.css";
 import { InputRangeSlider } from "./components/InputRangeSlider/InputRangeSlider";
 import { MapFragment } from "./components/MapFragment/MapFragment";
 import { Map } from "./types/Map";
+import MapsJson from './api/maps.json'
 
 function App() {
   const [year, setYear] = useState("");
   const [maps, setMaps] = useState<Map[]>([]);
 
   useEffect(() => {
-    fetch("/api/maps.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
+    setMaps(MapsJson);
 
-        return response.json();
-      })
-      .then((res) => setMaps(res))
-      .catch((error) => console.error("Помилка завантаження даних:", error));
+    // fetch("/api/maps.json")
+    //   .then((response) => {
+    //     if (!response.ok) {
+    //       throw new Error("Network response was not ok");
+    //     }
+
+    //     return response.json();
+    //   })
+    //   .then((res) => setMaps(res))
+    //   .catch((error) => console.error("Помилка завантаження даних:", error));
   }, []);
 
   const rounding = (num: number) => {

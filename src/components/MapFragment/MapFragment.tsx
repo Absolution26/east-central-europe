@@ -4,7 +4,10 @@ interface Props {
   map: MapSide;
 }
 
+
 export const MapFragment: React.FC<Props> = ({ map }) => {
+  console.log(map.image);
+
   return (
     <div className="map">
       <div className="map__border">
