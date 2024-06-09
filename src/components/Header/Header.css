@@ -38,6 +38,11 @@
   color: rgb(103, 103, 103);
 }
 
+.title__link {
+  color: rgb(103, 103, 103);
+  text-decoration: none;
+}
+
 .nav__list {
   width: 300px;
   display: flex;

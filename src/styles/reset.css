@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  background-color: rgb(251, 251, 251);
+}

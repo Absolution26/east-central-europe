@@ -1,4 +1,5 @@
 export interface King {
-  country: string,
-  king: string,
+  id: string;
+  country: string;
+  king: string;
 }

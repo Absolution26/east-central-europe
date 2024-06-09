@@ -28,7 +28,9 @@ export const Header: React.FC<Props> = ({ year }) => {
         </ul>
 
         <h1 className="header__title title">
-          Центрально-Східна Європа кінця XVIII cт.
+          <a href="/#" className="title__link">
+            Центрально-Східна Європа кінця XVIII cт.
+          </a>
         </h1>
       </div>
 
@@ -38,18 +40,23 @@ export const Header: React.FC<Props> = ({ year }) => {
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="/" className="nav__link">
-                Фото
+              <a href="#territories" className="nav__link">
+                Мапа
               </a>
             </li>
             <li className="nav__item">
-              <a href="/" className="nav__link">
+              <a href="#information" className="nav__link">
                 Інформація
               </a>
             </li>
             <li className="nav__item">
-              <a href="/" className="nav__link">
-                Попереднє фото
+              <a href="#emperors" className="nav__link">
+                Правителі
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="#main-events" className="nav__link">
+                Основні події
               </a>
             </li>
           </ul>

@@ -5,6 +5,8 @@ import { InputRangeSlider } from "./components/InputRangeSlider/InputRangeSlider
 import { MapFragment } from "./components/MapFragment/MapFragment";
 import { Map } from "./types/Map";
 import MapsJson from './api/maps.json'
+import { Kings } from "./components/Kings/Kings";
+import { Events } from "./components/Events/Events";
 
 function App() {
   const [year, setYear] = useState("");
@@ -12,17 +14,6 @@ function App() {
 
   useEffect(() => {
     setMaps(MapsJson);
-
-    // fetch("/api/maps.json")
-    //   .then((response) => {
-    //     if (!response.ok) {
-    //       throw new Error("Network response was not ok");
-    //     }
-
-    //     return response.json();
-    //   })
-    //   .then((res) => setMaps(res))
-    //   .catch((error) => console.error("Помилка завантаження даних:", error));
   }, []);
 
   const rounding = (num: number) => {
@@ -39,10 +30,13 @@ function App() {
 
         {findedMapByYear && (
           <div className="container">
-            <div className="map-wrap">
+            <section id="territories" className="section map-wrap">
               <MapFragment map={findedMapByYear.central} />
               <MapFragment map={findedMapByYear.east} />
-            </div>
+            </section>
+
+            <Kings kings={findedMapByYear.kings} />
+            <Events dates={findedMapByYear.dates} />
           </div>
         )}
       </main>
