@@ -7,28 +7,43 @@ interface Props {
 
 export const Header: React.FC<Props> = ({ year }) => {
   return (
-    <header className="header">
+    <header id="top" className="header">
       <div className="header__row">
         <ul className="header__links">
           <li className="header__link">
-            <a href="/" className="link link--linkedin" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/anastasiia-lisnycha-82889427a/"
+              className="link link--linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li className="header__link">
-            <a href="/" className="link link--instagram" target="_blank">
+            <a
+              href="https://www.instagram.com/_sierra_rosa/?igsh=dXdkN3pwcXhjb3Y0&utm_source=qr"
+              className="link link--instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa-brands fa-instagram"></i>
             </a>
           </li>
           <li className="header__link">
-            <a href="/" className="link link--facebook" target="_blank">
+            <a
+              href="https://www.facebook.com/people/Anastasiia-Kazantseva/pfbid0s7zraJ67v1paudvTv4oSaqaWkuJZMDjP8Jnm4PaK8h95Then36VZD7fi1uk5fYYbl/"
+              className="link link--facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa-brands fa-facebook"></i>
             </a>
           </li>
         </ul>
 
         <h1 className="header__title title">
-          <a href="/#" className="title__link">
+          <a href="#top" className="title__link">
             Центрально-Східна Європа кінця XVIII cт.
           </a>
         </h1>

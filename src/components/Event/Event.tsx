@@ -13,7 +13,7 @@ export const Event: React.FC<Props> = ({ date: {country, year, events } }) => {
 
       <ul className="event__info info">
         {events.map((event) => (
-          <li className="info__item">{event}</li>
+          <li className="info__item" key={event}>{event}</li>
         ))}
       </ul>
     </li>
