@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/east-central-europe/static/css/main.af10333f.css",
-    "main.js": "/east-central-europe/static/js/main.21b4f336.js",
+    "main.css": "/east-central-europe/static/css/main.076213b5.css",
+    "main.js": "/east-central-europe/static/js/main.d297a9c5.js",
     "static/js/453.ed3810f9.chunk.js": "/east-central-europe/static/js/453.ed3810f9.chunk.js",
     "index.html": "/east-central-europe/index.html",
-    "main.af10333f.css.map": "/east-central-europe/static/css/main.af10333f.css.map",
-    "main.21b4f336.js.map": "/east-central-europe/static/js/main.21b4f336.js.map",
+    "main.076213b5.css.map": "/east-central-europe/static/css/main.076213b5.css.map",
+    "main.d297a9c5.js.map": "/east-central-europe/static/js/main.d297a9c5.js.map",
     "453.ed3810f9.chunk.js.map": "/east-central-europe/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af10333f.css",
-    "static/js/main.21b4f336.js"
+    "static/css/main.076213b5.css",
+    "static/js/main.d297a9c5.js"
   ]
 }
